@@ -2,7 +2,6 @@
 #include <conio.h>
 #include <windows.h>
 #include <time.h>
-#include <stdlib.h>
 
 enum KEYBOARD {
     W_KEY = 119,
