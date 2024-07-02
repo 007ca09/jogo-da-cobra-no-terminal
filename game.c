@@ -115,7 +115,6 @@ int main() {
             new_apple_pos(&apple);
             snakelen++;
             score++;
-            gotoxy(apple.x, apple.y);
         }
         if (snakelen == 199) { //Caso a cobra chegar no tamanho 199(Tamanho máximo que a cobra pode chegar) O jogo finaliza.
             gotoxy(10, 0);
@@ -128,6 +127,7 @@ int main() {
             snakelen = 1;
             score = 0;    
         }
+        gotoxy(apple.x, apple.y);
         printf("X"); // Renderizando a maçã
     }
     
